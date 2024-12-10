@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(Room\ 1.png) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-image: url(Room\ 1.png);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    width: 50vh;
+    min-width: 350px;
+    height: 50vh;
+    min-height: 400px;
+    justify-content: center;
+    border: solid rgb(255, 3, 79) 2px;
+    border-radius: 16px;
+}
+.box{
+    color: white;
+    background-color: none;
+    display: inline-block;
+    height: 42vh;
+    width: 42vh;
+    min-height: 350px;
+    min-width: 310px;
+}
+.logo{
+    margin-bottom: 12px;
+}
+.login{
+    margin-bottom: 12px;
+}
+.label{
+    display: flex;
+    margin: 12px 0 0;
+    padding-top: 12px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 3.4vh;
+    width: 42vh;
+    min-width: 306px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    min-height: 25px;
+}
+.forget{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+}
+.sign{
+    height: 3.4vh;
+    width: 42vh;
+    min-width: 306px;
+    min-height: 25px;
+    color: white;
+    border: solid rgb(255, 3, 79) 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 3, 79);
+    margin: 20px 0 20px;
+}
+.para{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    margin: 10px 0 10px;
+}
+.img{
+    box-sizing: border-box;
+    height: 3.4vh;
+    min-height: 23px;
+    width: 12vh;
+    border: solid white 4px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 0 24px;
+}
+.img2{
+    margin: 0 11px;
+}
+.register{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
